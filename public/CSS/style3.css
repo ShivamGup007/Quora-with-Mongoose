@@ -1,0 +1,12 @@
+.userList
+{
+    width:250px;
+    margin: 30px auto;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.user
+{
+    display: inline-block;
+}

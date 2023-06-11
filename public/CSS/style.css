@@ -1,0 +1,151 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://www.pixel4k.com/wp-content/uploads/2018/11/goku-dragon-ball-super-5k_1541973669.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.form-box
+{
+   background-color:azure;
+   width: 340px;
+   height: 380px;
+   border: solid black 2px;
+   border-radius: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-value h1{
+    margin-top: 4px;
+    margin-left: 54px;
+    color: rgb(192, 155, 228);
+    text-decoration: underline;
+}
+
+.form-value p{
+    display: inline;
+    margin-left: 6px;
+}
+
+.loginBtn
+{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-left: 24px;
+  padding: 2px 16px;
+}
+
+.signupBtn
+{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 2px 16px;
+}
+
+.username{
+position: relative;
+margin-top: none;
+margin-bottom: 8px;
+padding: 3px;
+width: 240px;
+border: none;
+outline: none;
+background: none;
+border-bottom: 2px solid plum;
+
+}
+
+.password{
+    position: relative;
+    width: 240px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid plum;
+}
+
+.usernameIcon{
+    position: relative;
+    margin-left: -12px;
+}
+
+.passwordIcon{
+    position: relative;
+    margin-left: -12px;
+}
+
+.form-value form button{
+    margin-left: 68px;
+    padding: 2px 22px;
+    border-radius: 18px;
+}
+
+p{
+    display: inline;
+    position: relative;
+    margin-left: 20px;
+}
+
+.navLink{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navBar{
+    background-color: aqua;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.navItems{
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    width: 80%;
+    margin: auto;
+    /* width: 50%;
+    margin: auto; */
+}
+
+.question,
+.image{
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.userList
+{
+    width:250px;
+    margin: 30px auto;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.user
+{
+    display: inline-block;
+}

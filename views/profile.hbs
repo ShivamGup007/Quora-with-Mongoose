@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="welcome"><p>Welcome</p> {{user.username}}🏄‍♂️</div>
+    <nav class="navBar">
+        <div class="navItems">
+            <p>Quora</p>
+            <a href="/profile" class="homePage"><ion-icon class="homeIcon" name="home-outline"></ion-icon></a>
+            <a href="/followUsers?id={{user.id}}" class="otherUsers"><ion-icon class="otherUser"name="person-add-outline"></ion-icon></a>
+            <a href="/myComments" class="myComments"><ion-icon class="myComment" name="pencil-outline"></ion-icon></a>
+            <a href="/myNotification" class="myNotifications"><ion-icon class="myNotification"name="notifications-outline"></ion-icon></a>
+            <a href="/userDetails" class="userDetails"><ion-icon class="userDetail" name="person-circle-outline"></ion-icon></a>
+
+              <div class="search">
+                 <input type="text" class="search-input" placeholder="search..." name="">
+                  <a href="#" class="search-icon"><ion-icon name="search-outline"></ion-icon></a>
+              </div>  
+        </div>
+    </nav>   
+
+    <section>
+        <p>{{user.username}}</p>
+          <form action="/addPost?id={{user.id}}" method="POST" id="postOfUser">
+             <input type="hidden" id="idUser" idUser="{{user.id}}">
+             <input type="hidden" id="idUsername" idUsername="{{user.username}}">
+             <textarea class="input-Text" name="inputText" placeholder="Kya Hai Aapke Zehen Mein......!" rows="6" cols="76"></textarea><br>
+             <button class="postBtn" type="submit">Post</button>
+          </form>   
+    </section>
+
+        <ul class="newPost">
+
+        </ul>
+
+        <ul class="postList">
+            <input type="hidden" id="idUser" idUser="{{user.id}}">
+            
+        </ul>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="JS/displayPosts.js"></script>
+</body>
+</html>

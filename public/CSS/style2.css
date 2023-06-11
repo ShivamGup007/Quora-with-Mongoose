@@ -1,0 +1,227 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Optimistic text, Helvetica,Helvetica Neue,Arial, sans-serif;
+}
+
+.welcome p
+{
+    margin-left: 5px;
+    display: inline;
+}
+
+.welcome
+{
+    font-size:22px;
+}
+
+.navBar
+{
+    margin-top: 14px;
+    margin-left: 5px;
+    display: inline-flex;
+    position: relative;
+    background-color:rgb(255, 223, 234);
+}
+.navItems
+{
+    padding-top: 8px;
+}
+
+.navItems p{
+    display: inline;
+    margin-left: 68px;
+    color: #1A237E;
+    font-size: 42px;
+    
+    
+}
+
+.navItems .homeIcon{
+    position:relative;
+    margin-left: 95px;
+    font-size: 30px;
+    color: rgb(99, 160, 181);
+}
+
+.navItems .otherUser{
+    position:relative;
+    margin-left: 30px;
+    font-size: 34px;
+    color: rgb(99, 160, 181);
+}
+
+.navItems .myComment{
+    position:relative;
+    margin-left: 30px;
+    font-size: 34px;
+    color: rgb(99, 160, 181);
+}
+
+.navItems .myNotification{
+    position:relative;
+    margin-left: 30px;
+    font-size: 34px;
+     color: rgb(99, 160, 181);
+}
+
+.navItems .userDetail{
+    position:relative;
+    margin-left: 30px;
+    font-size: 38px;
+    color: rgb(99, 160, 181);
+}
+
+.navItems .search{
+    display: inline;
+    position: relative;
+    margin-left: 235px;
+    height: 70px;
+    background-color: #fff;
+    padding: 14px;
+}
+
+.search-input{
+
+    color: white;
+    border: none;
+    outline: none;
+    margin-bottom: 8px;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 50px;
+    transition: width 0.4s linear;
+
+}
+
+.search .search-input{
+    padding: auto;
+    display: inline;
+    width: 330px;
+    caret-color: #536bf6;
+    font-size: 21px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear;
+}
+
+.search:hover>.search-icon{
+    background:#1A237E;
+    color:#fff;
+}
+.search-icon{
+    height: 50px;
+    width: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #536bf6;
+
+}
+a:link{
+    text-decoration: none;
+}
+
+section{
+    height: 160px;
+    width:640px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    margin-left: 280px;
+    border: #1A237E solid 2px;
+    border-radius: 16px;
+    padding: 4px;
+    background: linear-gradient(-45deg,khaki, rgb(255, 223, 234), #4fbed7);
+    background-size: contain;
+}
+
+
+section p {
+    width:70px;
+    padding: 3px;
+    font-size: larger;
+    position: relative;
+    margin-left: 72px;
+    color: aliceblue;
+    z-index: 99;
+}
+.input-Text{
+    position: relative;
+    margin-left: 54px;
+    border: #a3f3f3 solid 3px;
+    border-radius: 6px;
+    z-index: 99;
+}
+
+.postBtn{
+    position: relative;
+    margin-left: 500px;
+    height: 26px;
+    width: 68px;
+    border: #a3f3f3 solid 3px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor:pointer;
+}
+.postBtn:hover{
+    background-color: #1A237E;
+    color: #fff;
+}
+
+.listElement{
+    position:relative;
+    height: 100px;
+    width: 300px;
+    border: #96a4f3 solid 2px;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+
+.postListBox{
+    height: 130px;
+    width:540px;
+    position: relative;
+    margin-top: 12px;
+    margin-left: 330px;
+    border: #1A237E solid 2px;
+    border-radius: 16px;
+    padding: 2px;
+    background: linear-gradient(-45deg,#6cd2e4,  rgb(255, 223, 234), #c09de8);
+    
+}
+
+ .userName{
+    padding: 3px;
+    font-size: large;
+    position: relative;
+    margin-left: 28px;
+    color: aliceblue;
+    z-index: 99;
+}
+
+.postListItem{
+    height: 68px;
+    width: 475px;
+    position: relative;
+    display: flexbox;
+    margin-left: 0px;
+    margin-top: 3px;
+    border: #a3f3f3 solid 3px;
+    background-color: #fff;
+    border-radius: 6px;
+    z-index: 99;
+}
+
+.postListItem p{
+    position: relative;
+    display: inline;
+    margin-left: 4px;
+    color: #1A237E;
+    font-size: 16px;
+    font-weight: lighter;
+}
